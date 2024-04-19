@@ -1,0 +1,34 @@
+.theme-dark {
+	--c-green: #a6e3a1;
+
+	--background-primary: #11111b;
+	--background-secondary: #11111b;
+	--background-modifier-border-focus: #00000000;
+	--background-modifier-hover: rgba(147, 153, 178, 0.1);
+	--interactive-normal: #313244;
+	--interactive-hover: #45475a;
+	--modal-border-color: #585b70;
+	--prompt-border-color: #585b70;
+	--background-modifier-form-field: #313244;
+	--divider-color: #313244;
+
+	--text-normal: #cdd6f4;
+	--text-muted: #9399b2;
+	--text-faint: #6c7086;
+
+	--nav-item-color: var(--text-normal);
+	--titlebar-background: var(--background-secondary);
+	--titlebar-background-focused: var(--background-secondary);
+
+	--input-radius: 4px;
+}
+
+table.calendar {
+	.day.has-note.active svg {
+		fill: var(--background-primary);
+	}
+}
+
+.workspace-split {
+	overflow: hidden;
+}

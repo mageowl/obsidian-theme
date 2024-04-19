@@ -1,34 +1,30 @@
-body {
-	--radius-s: 0px;
-	--radius-m: 0px;
-	--radius-l: 0px;
-	--input-radius: 0px;
-	--tab-radius-active: 0px;
-	--checkbox-radius: 0px;
-	--toggle-radius: 0px;
-	--toggle-thumb-radius: 0px;
-	--slider-thumb-radius: 0px;
+.theme-dark {
+  --c-green: #a6e3a1;
+  --background-primary: #11111b;
+  --background-secondary: #11111b;
+  --background-modifier-border-focus: #00000000;
+  --background-modifier-hover: rgba(147, 153, 178, 0.1);
+  --interactive-normal: #313244;
+  --interactive-hover: #45475a;
+  --modal-border-color: #585b70;
+  --prompt-border-color: #585b70;
+  --background-modifier-form-field: #313244;
+  --divider-color: #313244;
+  --text-normal: #cdd6f4;
+  --text-muted: #9399b2;
+  --text-faint: #6c7086;
+  --nav-item-color: var(--text-normal);
+  --titlebar-background: var(--background-secondary);
+  --titlebar-background-focused: var(--background-secondary);
+  --input-radius: 4px;
 }
 
-.workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
-	display: none;
+table.calendar .day.has-note.active svg {
+  fill: var(--background-primary);
 }
 
-svg * {
-	stroke-linecap: square;
-	stroke-linejoin: miter;
-	rx: 0;
-	ry: 0;
+.workspace-split {
+  overflow: hidden;
 }
 
-.menu {
-	padding: var(--size-2-1);
-}
-
-.menu-item {
-	padding: var(--size-4-1) var(--size-4-2);
-}
-
-.menu-separator {
-	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
-}
+/*# sourceMappingURL=theme.css.map */
